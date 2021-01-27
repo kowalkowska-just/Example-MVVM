@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         configureTableView()
+        setupNavigationBar()
     }
 
     //MARK: - Helper functions
@@ -32,10 +33,13 @@ class ViewController: UIViewController {
         tableView.delegate = self
         
         view.addSubview(tableView)
-        tableView.anchor(top: view.topAnchor, left: view.leftAnchor,
-                         bottom: view.bottomAnchor, right: view.rightAnchor,
-                         paddingTop: 5, paddingLeft: 5,
-                         paddingBottom: 5, paddingRight: 5)
+        tableView.anchor(top: view.topAnchor, left: view.safeAreaLayoutGuide.leftAnchor,
+                         bottom: view.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor)
+    }
+    
+    private func setupNavigationBar() {
+        navigationItem.title = "Home"
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
 }
 
