@@ -13,6 +13,8 @@
 		D1D09EF225C1B43F00D8417D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D09EF125C1B43F00D8417D /* Assets.xcassets */; };
 		D1D09EF525C1B43F00D8417D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D09EF325C1B43F00D8417D /* LaunchScreen.storyboard */; };
 		D1D09EFE25C1DD3300D8417D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D09EFD25C1DD3300D8417D /* Extension.swift */; };
+		D1D09F0325C1F4E900D8417D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D09F0225C1F4E900D8417D /* Person.swift */; };
+		D1D09F0625C1F73600D8417D /* PersonFollowingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D09F0525C1F73600D8417D /* PersonFollowingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D1D09EF425C1B43F00D8417D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1D09EF625C1B43F00D8417D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1D09EFD25C1DD3300D8417D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D1D09F0225C1F4E900D8417D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D1D09F0525C1F73600D8417D /* PersonFollowingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFollowingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D1D09EF325C1B43F00D8417D /* LaunchScreen.storyboard */,
 				D1D09EF625C1B43F00D8417D /* Info.plist */,
 				D1D09EFD25C1DD3300D8417D /* Extension.swift */,
+				D1D09F0225C1F4E900D8417D /* Person.swift */,
+				D1D09F0525C1F73600D8417D /* PersonFollowingCell.swift */,
 			);
 			path = "MVVM - Example";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D09F0325C1F4E900D8417D /* Person.swift in Sources */,
 				D1D09EED25C1B43D00D8417D /* ViewController.swift in Sources */,
+				D1D09F0625C1F73600D8417D /* PersonFollowingCell.swift in Sources */,
 				D1D09EE925C1B43D00D8417D /* AppDelegate.swift in Sources */,
 				D1D09EEB25C1B43D00D8417D /* SceneDelegate.swift in Sources */,
 				D1D09EFE25C1DD3300D8417D /* Extension.swift in Sources */,
