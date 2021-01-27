@@ -15,6 +15,7 @@
 		D1D09EFE25C1DD3300D8417D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D09EFD25C1DD3300D8417D /* Extension.swift */; };
 		D1D09F0325C1F4E900D8417D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D09F0225C1F4E900D8417D /* Person.swift */; };
 		D1D09F0625C1F73600D8417D /* PersonFollowingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D09F0525C1F73600D8417D /* PersonFollowingCell.swift */; };
+		D1D09F0925C2146100D8417D /* PersonFollowingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D09F0825C2146100D8417D /* PersonFollowingCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D1D09EFD25C1DD3300D8417D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		D1D09F0225C1F4E900D8417D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		D1D09F0525C1F73600D8417D /* PersonFollowingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFollowingCell.swift; sourceTree = "<group>"; };
+		D1D09F0825C2146100D8417D /* PersonFollowingCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFollowingCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				D1D09EFD25C1DD3300D8417D /* Extension.swift */,
 				D1D09F0225C1F4E900D8417D /* Person.swift */,
 				D1D09F0525C1F73600D8417D /* PersonFollowingCell.swift */,
+				D1D09F0825C2146100D8417D /* PersonFollowingCellViewModel.swift */,
 			);
 			path = "MVVM - Example";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				D1D09EED25C1B43D00D8417D /* ViewController.swift in Sources */,
 				D1D09F0625C1F73600D8417D /* PersonFollowingCell.swift in Sources */,
 				D1D09EE925C1B43D00D8417D /* AppDelegate.swift in Sources */,
+				D1D09F0925C2146100D8417D /* PersonFollowingCellViewModel.swift in Sources */,
 				D1D09EEB25C1B43D00D8417D /* SceneDelegate.swift in Sources */,
 				D1D09EFE25C1DD3300D8417D /* Extension.swift in Sources */,
 			);

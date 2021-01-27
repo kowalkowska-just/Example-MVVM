@@ -19,6 +19,8 @@ struct Person {
     let address: String?
     let gender: Gender
     
+    let username = "Just Kow"
+    
     init(name: String,
          birthdate: Date? = nil,
          middleName: String? = nil,
