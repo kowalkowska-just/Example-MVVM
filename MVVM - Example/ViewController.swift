@@ -67,7 +67,16 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: PersonFollowingCell.identifier, for: indexPath) as? PersonFollowingCell
         else { return UITableViewCell() }
         cell.configure(with: PersonFollowingCellViewModel(with: model))
+        cell.delegate = self
         return cell
+    }
+}
+
+//MARK: - Extension PersonFollowingCellDelegate
+
+extension ViewController: PersonFollowingCellDelegate {
+    
+    func personFollowingCell(_ cell: PersonFollowingCell, didTapWith viewModel: PersonFollowingCellViewModel) {
     }
 }
 
