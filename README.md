@@ -2,7 +2,7 @@
 ##### _Xcode 12.3_     
 ##### _iOS 14.3_ 
 
-# MVVM - Example
+# Example - MVVM
 ### This is a very simple example of the MVVM architecture from iOS Academy.
 
 
